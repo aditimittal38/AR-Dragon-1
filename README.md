@@ -129,7 +129,44 @@ public class VRDragonInteraction : MonoBehaviour
 
 ## Screenshots
 
-All implementation screenshots are in [`Screenshots/`](Screenshots/).
+### ISE 1 — AR Dragon Starting Point
+
+![ISE 1 AR Dragon project](Screenshots/1_ise1.png)
+*SampleScene with AR Foundation — Charizard spawned on a detected reference image*
+
+---
+
+### VRScene — Complete Hierarchy and Inspector
+
+![VRScene complete hierarchy and CharizardPrefab inspector](Screenshots/10_copy_charizard_prefab_to_hierarchy.png)
+*VRScene Hierarchy: XR Interaction Manager, XR Origin (VR), XR Device Simulator, Plane, CharizardPrefab all in place*
+
+---
+
+### XR Device Simulator — HMD Navigation Verified
+
+![HMD controls working in Play mode](Screenshots/15_HMD_controls_working_WASDQE.png)
+*Play mode with HMD mode active — WASD, mouse look, and Q/E navigation confirmed working; Charizard visible in slow idle hover*
+
+---
+
+### flyParam Animation Effect
+
+![Animator flyParam and Charizard fast fly animation](Screenshots/16_fly_param_effect.png)
+*Animator Parameters tab showing flyParam; unchecked = slow idle hover, checked = fast active flying*
+
+---
+
+### Final VRScene Look
+
+![Complete final VRScene](Screenshots/17_complete_final_look.png)
+*Final VRScene — Hierarchy, CharizardPrefab Inspector (Box Collider, XR Grab Interactable, VR Dragon Interaction, Rigidbody), and Game view*
+
+---
+
+### All Screenshots (Full List)
+
+All 17 implementation screenshots are in [`Screenshots/`](Screenshots/).
 
 | # | File | What It Shows |
 |---|---|---|
@@ -168,7 +205,7 @@ All implementation screenshots are in [`Screenshots/`](Screenshots/).
 
 ## Demo Video
 
-**[ PASTE GOOGLE DRIVE LINK HERE ]**
+https://drive.google.com/drive/folders/1SxAB9H3kbnMbqN72Miyn0bjewZP0tV-f?usp=sharing
 
 ---
 
